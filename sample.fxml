@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1000.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Canvas fx:id="windowCanvas" height="626.0" layoutY="76.0" onMouseClicked="#onMouseClicked" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" width="1000.0" />
+      <ChoiceBox fx:id="figureBox" layoutX="674.0" layoutY="530.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
