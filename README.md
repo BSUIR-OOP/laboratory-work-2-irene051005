@@ -1,2 +1,1 @@
-SOLID principles
-SOLID principles
+# SOLID principles
